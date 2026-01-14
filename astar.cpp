@@ -13,7 +13,7 @@ using namespace std;
 #define nl '\n'
 
 vector<vector<int>> labirinto;
-vector<vector<int>> dist;
+vector<vector<int>>dist;
 vector<vector<pii>> parent;
 
 int manhattan(pii a, pii b) {
