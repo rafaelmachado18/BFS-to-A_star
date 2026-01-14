@@ -21,7 +21,7 @@ def a_star(ini, fim, n, m):
         if cur == fim:
             return
 
-        if dist[cur[0]][cur[1]] == 10**18:
+        if dist[cur[0]][cur[1]] ==  10**18:
             continue
 
         for dx, dy in moves:
