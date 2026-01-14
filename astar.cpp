@@ -56,8 +56,8 @@ void solve() {
     dist.assign(n, vector<int>(m, INT_MAX));
     parent.assign(n, vector<pii>(m, {-1,-1}));
 
-    for(int i=0;i<n;i++) for(int j=0;j<m;j++) {
-        cin >> labirinto[i][j];
+    for(int i = 0; i < n; i++) for(int j = 0; j < m; j++) {
+        cin >> labirinto[i][j]; 
     }
 
     astar({beginx, beginy}, {n-1, m-1}, n, m);
